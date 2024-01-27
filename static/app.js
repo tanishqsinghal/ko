@@ -14,7 +14,7 @@ async function getTestData()
 
     console.log(await received_data);
 
-    document.getElementById("test3").innerHTML = "NEWWWW " + JSON.stringify(await received_data);
+    document.getElementById("test3").innerHTML = "KO " + JSON.stringify(await received_data);
 
 
 //    fetch('test/', {
